@@ -1,26 +1,26 @@
 {
-	"name": "homebridge-mobilealerts",
-	"version": "2.2.0",
-	"description": "This is a homebridge plugin for several Mobile-Alerts (Technoline) devices.",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"homebridge-plugin"
-	],
-	"engines": {
-		"node": ">=0.12.0",
-		"homebridge": ">=0.2.0"
-	},
-	"author": "d3h56r",
-	"license": "ISC",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/dehsgr/homebridge-mobilealerts.git"
-	},
-	"dependencies": {
-		"request": "^2.75.0",
-		"utf8": "^3.0.0"
-	}
+    "name": "homebridge-mobilealerts",
+    "version": "2.3.0",
+    "description": "This is a homebridge plugin for several Mobile-Alerts (Technoline) devices.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "homebridge-plugin"
+    ],
+    "engines": {
+        "node": "^18 || ^20 || ^22 || >=24",
+        "homebridge": "^1.6.0 || >=2.0.0"
+    },
+    "author": "d3h56r",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dehsgr/homebridge-mobilealerts.git"
+    },
+    "dependencies": {
+        "request": "^2.75.0",
+        "utf8": "^3.0.0"
+    }
 }
